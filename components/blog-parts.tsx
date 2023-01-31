@@ -61,7 +61,7 @@ export const PostBody = ({ blocks }) => (
 export const ReadMoreLink = ({ post }) => (
   <div className={styles.readMoreLink}>
     <Link href={getBlogLink(post.Slug)} className={styles.readMore}>
-      Read more
+      もっと見る
     </Link>
   </div>
 )

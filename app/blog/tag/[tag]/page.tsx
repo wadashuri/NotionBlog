@@ -70,9 +70,9 @@ const BlogTagPage = async ({ params: { tag: encodedTag } }) => {
         </div>
 
         <div className={styles.subContent}>
-          <BlogPostLink heading="Recommended" posts={rankedPosts} />
-          <BlogPostLink heading="Latest Posts" posts={recentPosts} />
-          <BlogTagLink heading="Categories" tags={tags} />
+          <BlogPostLink heading="おすすめ" posts={rankedPosts} />
+          <BlogPostLink heading="新しい投稿" posts={recentPosts} />
+          <BlogTagLink heading="カテゴリー" tags={tags} />
         </div>
       </div>
     </>

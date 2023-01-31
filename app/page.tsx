@@ -8,13 +8,13 @@ const RootPage = () => (
     <GoogleAnalytics pageTitle={NEXT_PUBLIC_SITE_TITLE} />
     <div className={styles.container}>
       <div>
-        <h2>Welcome!</h2>
-        <p>Your easy-notion-blog deployed successfully!</p>
-        <p>Have fun!</p>
+        <h2>ようこそ!</h2>
+        <p>このサイトはwebエンジニアのWEBエンジニアのコードスニペット</p>
+        <p>おもにPHP,Laravelなどのバックエンドから最新のフロントの技術まで、すぐに使えるプログラムパーツを中心に投稿していきます。</p>
         <p>
-          easy-notion-blog powered by{' '}
-          <Link href="https://github.com/otoyo/easy-notion-blog">
-            otoyo/easy-notion-blog
+        ポートフォリオ集は{' '}
+          <Link href="https://onlibrary.net/service">
+            コチラ
           </Link>
         </p>
       </div>
